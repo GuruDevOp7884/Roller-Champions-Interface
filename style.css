@@ -1,0 +1,163 @@
+.navbar{
+    border: 1px solid;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: center;
+    font-family: ;
+    font-weight: 1000;
+    font-size: larger;
+    background-color: #f41551;
+}
+
+.barra-preta > p{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+.barra-preta{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+
+.total-matches{
+    font-weight: 800;
+    margin-right:180px ; 
+    color: rgb(0, 0, 0);
+    background-color: #f0eaeb; 
+    border-radius: 10px;
+    padding: 3px;
+    font: bold;
+}
+
+.card-container{
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    padding: 10rem 0 0;
+    max-width: 35ch;
+    transition: transform 500ms ease;
+}
+
+.card-container:hover{
+    transform: scale(1.05);
+}
+
+.card-container:hover .card-title::after{
+    transform: scaleX(1);
+}
+
+.card-container:hover .card-content{
+    transform: translateY(0);
+}
+
+.card-title::after{
+    border-radius: 5px;
+    outline: 1px solid red;  /*talvez tirar*/
+    width: max-content;        /*talvez tirar*/
+    left: 23px;
+    bottom: 130px;
+    content: "";
+    position: absolute;
+    height: 4px;
+    width: 43.5%;
+    background-color: #f41551;
+
+    transform-origin: left;
+    transition: transform 500ms ease;
+    transform: scaleX(0);
+}
+
+.card-container{
+    padding: 0.1rem;
+    border-radius: 18px;
+    margin: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(6, 6, 6, 0.2); 
+    
+}
+
+.card-content{
+    padding: 1rem;
+    margin-top:100px ;
+
+    transform: translateY(65%);
+    transition: transform 500ms ease;
+
+    background:linear-gradient(
+        hsl(0 0% 0% / 0),
+        hsl(20 0% 0% / 0.3) 20%,
+        hsl(0 0% 0% / 1)
+    );
+}
+
+h3{
+    margin-left: 10px;
+}
+
+.cartoes{
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+.cartoes2{
+    display: flex;
+}
+
+.container{
+    display: block;
+    background-color: lightgray;
+    padding: 0;
+    border-radius: 10px 10px 0 0px;
+}
+
+.agrupamento{
+    padding: 0;
+    width: ;
+}
+
+.img{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: -580px;
+    height: 600px;
+    margin-right: 60px;
+    
+}
+
+.container2{
+    width: 90.4rem;
+    margin:auto ;
+}
+
+
+
+.rodape{
+    background-color: black;
+    height: 50px;
+    width: 90.4rem;
+    margin:auto ;
+
+    -webkit-border-top-left-radius: 010px;
+    -webkit-border-bottom-right-radius: 30px;
+    -webkit-border-bottom-left-radius: 100px;
+    -moz-border-radius-topleft: 010px;
+    -moz-border-radius-bottomright: 30px;
+    -moz-border-radius-bottomleft: 100px;
+    border-top-left-radius: 010px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 100px;
+}
+
+.agrupamento{
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
